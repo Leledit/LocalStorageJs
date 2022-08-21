@@ -1,0 +1,14 @@
+
+
+#alertaCadastro{
+    display: none;
+ 
+}
+
+.btnExcluir{
+    color: aqua;
+    cursor: pointer;
+}
+.btnExcluir:hover{
+    color:aquamarine;
+}

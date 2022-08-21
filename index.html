@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Treino do uso de localStorage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center pt-4 mb-5">
+        Treinando a ultilização de localStorage com js
+      </h1>
+    </header>
+    <section class="container mb-5">
+      <div class="alert alert-success" role="alert" id="alertaCadastro">
+     
+      </div>
+      <h2 class="mb-3">Cadastro de cliente</h2>
+      <form class="form-control">
+        <div class="mb-3">
+            <label class="form-label" for="campNome">Nome:</label>
+            <input type="text" id="campNome" class="form-control" placeholder="Entre com o seu nome"/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="campEmail">E-mail:</label>
+            <input type="email" id="campEmail" class="form-control" placeholder="Entre com o seu e-mail"/>
+        </div>
+        <div class="row mb-4">
+            <div class="col">
+                <label class="form-label" for="campCidade">Cidade:</label>
+                <input type="text" id="campCidade" class="form-control" placeholder="Entre com a sua cidade"/>
+            </div>
+            <div class="col">
+                <label class="form-label" for="campEstado">Estado:</label>
+                <input type="text" id="campEstado" class="form-control" placeholder="Entre com o seu estado"/>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" id="btnEnviar">Enviar</button>  
+      </form>
+    </section>
+    <section class="container">
+      <h2>Exibição de cliente</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Cidade</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Excluir</th>
+          </tr>
+        </thead>
+        <tbody>  
+        </tbody>
+      </table>
+    </section>
+  </body>
+  <script src="js/main.js"></script>
+</html>
