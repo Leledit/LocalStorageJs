@@ -1,0 +1,22 @@
+
+
+#alertaCadastro{
+    display: none;
+ 
+}
+
+.btnExcluir{
+    color: aqua;
+    cursor: pointer;
+}
+.btnExcluir:hover{
+    color:aquamarine;
+}
+
+.btnEditar{
+    color: rgb(255, 144, 144);
+    cursor: pointer;
+}
+.btnEditar:hover{
+    color: rgb(250, 56, 56);
+}
